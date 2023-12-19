@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing import image
 
 @st.cache(allow_output_mutation=True)
 def loading_model():
-    fp = "./model/keras_model.h5"
+    fp = "./model/BrainTumorCheck.h5"
     model_loader = load_model(fp)
     return model_loader
 
